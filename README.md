@@ -21,3 +21,12 @@ Let's assume that you are working on a data project and are responsible for buil
     - local_file_path: Your local dataset file path 
     - bucket_name: S3 Bucket Name
     - s3_file: S3 Bucket Prefix(Directory structure)
+
+3. Before running the CF template, change the following paramter values in **aws-artifacts-creation.yaml** file
+    - AWSIAMRoleName
+    - AWSGlueJobName:
+    - AWSGlueCrawlerName:
+    - AWSGlueCatalogName:
+    - AWSGlueJobTriggerName:
+    - GlueJobScriptLocation: Glue Job Script S3 bucket path
+    - CrawlerS3Path: curated-data S3 bucket path 
