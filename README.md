@@ -3,7 +3,7 @@ Let's assume that you are working on a data project and are responsible for buil
 
 **Data Pipeline - Reference Architecture**
 
-![alt text]
+![alt text](images/data-pipeline-arch.png)
  
 
 # Install Packages 
